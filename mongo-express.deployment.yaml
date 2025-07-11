@@ -35,3 +35,5 @@ spec:
                 configMapKeyRef:
                   name: mongodb-configmap
                   key: database_url
+            - name: ME_CONFIG_MONGODB_URL
+              value: ""
